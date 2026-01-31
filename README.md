@@ -1,5 +1,5 @@
 
-# Singlish → Sinhala Translator Automated Testing (Playwright)
+# Singlish → Sinhala Translator Automated Testing Using Playwright
 
 This repository contains automated functional and UI tests for the Singlish-to-Sinhala transliteration system available at:
 
@@ -9,8 +9,6 @@ The objective of this project is to assess:
 - Accuracy of Singlish to Sinhala conversion
 - Robustness under different input conditions
 - UI behavior such as real-time output updating and input handling
-
-This project was developed as part of an academic testing assignment using Playwright.
 
 ---
 
@@ -33,14 +31,14 @@ git clone https://github.com/JasonPerera30/Test1234.git
 
 ---
 
-## 📸 Test Reports
+## Test Reports
 
 HTML test reports are generated in:
 `playwright-report/index.html`
 
 ---
 
-## 🧪 Playwright Test Execution Guide
+## Playwright Test Execution Guide
 
 ```bash
 # Run all tests
@@ -52,7 +50,7 @@ npx playwright show-report
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 Test1234/
