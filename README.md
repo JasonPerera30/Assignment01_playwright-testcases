@@ -27,8 +27,10 @@ The objective of this project is to assess:
 Clone this repository:
 ```sh
 git clone https://github.com/JasonPerera30/Assignment01_playwright-testcases.git
-```
 
+
+# Run all tests in headed mode (shows browser UI)
+npx playwright test --headed
 ---
 
 ## Test Reports
