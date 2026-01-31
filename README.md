@@ -1,19 +1,68 @@
-# JJTEST
 
-This is the frontend for the JJTEST project.
+# Singlish → Sinhala Translator Automated Testing (Playwright)
 
-## Project Structure
+This repository contains automated functional and UI tests for the Singlish-to-Sinhala transliteration system available at:
 
-- `frontend/index.html` – Main HTML file for the frontend.
+https://www.swifttranslator.com/
 
-## Getting Started
+The objective of this project is to assess:
+- Accuracy of Singlish to Sinhala conversion
+- Robustness under different input conditions
+- UI behavior such as real-time output updating and input handling
 
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/JasonPerera30/JJTEST.git
-   ```
-2. Open the `frontend/index.html` file in your browser to view the project.
+This project was developed as part of an academic testing assignment using Playwright.
 
-## License
+---
 
-Specify your license here.
+## Tools & Technologies
+- Node.js
+- Playwright Test
+- Visual Studio Code
+- GitHub
+
+---
+
+## Prerequisites
+- Node.js (latest LTS recommended)
+- npm (included with Node.js)
+
+Clone this repository:
+```sh
+git clone https://github.com/JasonPerera30/Test1234.git
+```
+
+---
+
+## 📸 Test Reports
+
+HTML test reports are generated in:
+`playwright-report/index.html`
+
+---
+
+## 🧪 Playwright Test Execution Guide
+
+```bash
+# Run all tests
+npx playwright test
+
+# View HTML test report
+npx playwright show-report
+```
+
+---
+
+## 📁 Project Structure
+
+```text
+Test1234/
+├─ tests/
+│  └─ swift-translator-tests.spec.js   # Main Playwright test cases
+├─ playwright.config.js                # Playwright configuration file
+├─ package.json                        # Project dependencies
+├─ playwright-report/                  # HTML test reports
+├─ test-results/                       # Raw test result data
+└─ README.md                           # Project documentation
+```
+
+---
